@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/project_5.dir/AddAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/ColonAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/ColonDashAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/CommaAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/CommentAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/Database.cpp.obj"
+  "CMakeFiles/project_5.dir/DatalogProgram.cpp.obj"
+  "CMakeFiles/project_5.dir/FactsAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/Header.cpp.obj"
+  "CMakeFiles/project_5.dir/IDAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/Left_ParenAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/Lexer.cpp.obj"
+  "CMakeFiles/project_5.dir/MultiplyAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/Parser.cpp.obj"
+  "CMakeFiles/project_5.dir/PeriodAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/Predicate.cpp.obj"
+  "CMakeFiles/project_5.dir/Q_MarkAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/QueriesAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/Relation.cpp.obj"
+  "CMakeFiles/project_5.dir/Right_ParenAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/Rule.cpp.obj"
+  "CMakeFiles/project_5.dir/RulesAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/SchemesAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/StringAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/Token.cpp.obj"
+  "CMakeFiles/project_5.dir/Tuple.cpp.obj"
+  "CMakeFiles/project_5.dir/UndefinedCommentAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/UndefinedStringAutomaton.cpp.obj"
+  "CMakeFiles/project_5.dir/main.cpp.obj"
+  "libproject_5.dll.a"
+  "project_5.exe"
+  "project_5.exe.manifest"
+  "project_5.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/project_5.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
