@@ -43,6 +43,9 @@ CMakeFiles/project_5.dir/FactsAutomaton.cpp.obj: \
  ../FactsAutomaton.cpp \
  ../FactsAutomaton.h \
  ../Token.h
+CMakeFiles/project_5.dir/Graph.cpp.obj: \
+ ../Graph.cpp \
+ ../Graph.h
 CMakeFiles/project_5.dir/Header.cpp.obj: \
  ../Header.cpp \
  ../Header.h
@@ -161,6 +164,7 @@ CMakeFiles/project_5.dir/main.cpp.obj: \
  ../Automaton.h \
  ../Database.h \
  ../DatalogProgram.h \
+ ../Graph.h \
  ../Header.h \
  ../Lexer.h \
  ../Parameter.h \

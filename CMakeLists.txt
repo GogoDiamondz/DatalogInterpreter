@@ -64,4 +64,4 @@ add_executable(project_5
         UndefinedCommentAutomaton.cpp
         UndefinedCommentAutomaton.h
         UndefinedStringAutomaton.cpp
-        UndefinedStringAutomaton.h)
+        UndefinedStringAutomaton.h Graph.cpp Graph.h)

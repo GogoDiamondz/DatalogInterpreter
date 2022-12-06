@@ -6,53 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/AddAutomaton.cpp
-AddAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/AddAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/AddAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
 Token.h
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Token.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/ColonAutomaton.cpp
-ColonAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/ColonAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/ColonAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/ColonDashAutomaton.cpp
-ColonDashAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/ColonDashAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/ColonDashAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/CommaAutomaton.cpp
-CommaAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/CommaAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/CommaAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/CommentAutomaton.cpp
-CommentAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/CommentAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/CommentAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Database.cpp
-Database.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Database.h
 
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Database.h
 map
@@ -64,12 +20,6 @@ sstream
 Relation.h
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Relation.h
 
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/DatalogProgram.cpp
-sstream
--
-DatalogProgram.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/DatalogProgram.h
-
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/DatalogProgram.h
 vector
 -
@@ -80,80 +30,20 @@ C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Predicate.h
 Rule.h
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Rule.h
 
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/FactsAutomaton.cpp
-FactsAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/FactsAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/FactsAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Header.cpp
-Header.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Header.h
+C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Graph.h
+map
+-
+set
+-
+vector
+-
+sstream
+-
 
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Header.h
 vector
 -
 iostream
--
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/IDAutomaton.cpp
-IDAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/IDAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/IDAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Left_ParenAutomaton.cpp
-Left_ParenAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Left_ParenAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Left_ParenAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Lexer.cpp
-Lexer.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Lexer.h
-ColonAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/ColonAutomaton.h
-ColonDashAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/ColonDashAutomaton.h
-CommaAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/CommaAutomaton.h
-PeriodAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/PeriodAutomaton.h
-Q_MarkAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Q_MarkAutomaton.h
-Left_ParenAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Left_ParenAutomaton.h
-Right_ParenAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Right_ParenAutomaton.h
-MultiplyAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/MultiplyAutomaton.h
-AddAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/AddAutomaton.h
-SchemesAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/SchemesAutomaton.h
-FactsAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/FactsAutomaton.h
-RulesAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/RulesAutomaton.h
-QueriesAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/QueriesAutomaton.h
-IDAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/IDAutomaton.h
-StringAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/StringAutomaton.h
-CommentAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/CommentAutomaton.h
-UndefinedStringAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/UndefinedStringAutomaton.h
-UndefinedCommentAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/UndefinedCommentAutomaton.h
-string
 -
 
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Lexer.h
@@ -166,21 +56,9 @@ C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
 Token.h
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Token.h
 
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/MultiplyAutomaton.cpp
-MultiplyAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/MultiplyAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/MultiplyAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Parameter.h
 string
 -
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Parser.cpp
-Parser.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Parser.h
 
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Parser.h
 vector
@@ -189,18 +67,6 @@ Token.h
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Token.h
 DatalogProgram.h
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/DatalogProgram.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/PeriodAutomaton.cpp
-PeriodAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/PeriodAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/PeriodAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Predicate.cpp
-Predicate.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Predicate.h
 
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Predicate.h
 string
@@ -211,26 +77,6 @@ sstream
 -
 Parameter.h
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Parameter.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Q_MarkAutomaton.cpp
-Q_MarkAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Q_MarkAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Q_MarkAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/QueriesAutomaton.cpp
-QueriesAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/QueriesAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/QueriesAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Relation.cpp
-Relation.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Relation.h
 
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Relation.h
 set
@@ -246,49 +92,9 @@ C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Tuple.h
 Header.h
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Header.h
 
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Right_ParenAutomaton.cpp
-Right_ParenAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Right_ParenAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Right_ParenAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Rule.cpp
-Rule.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Rule.h
-
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Rule.h
 Predicate.h
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Predicate.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/RulesAutomaton.cpp
-RulesAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/RulesAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/RulesAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/SchemesAutomaton.cpp
-SchemesAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/SchemesAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/SchemesAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/StringAutomaton.cpp
-StringAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/StringAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/StringAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Token.cpp
-Token.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Token.h
 
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Token.h
 string
@@ -298,10 +104,6 @@ sstream
 iostream
 -
 
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Tuple.cpp
-Tuple.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Tuple.h
-
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Tuple.h
 iostream
 -
@@ -309,22 +111,6 @@ vector
 -
 sstream
 -
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/UndefinedCommentAutomaton.cpp
-UndefinedCommentAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/UndefinedCommentAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/UndefinedCommentAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/UndefinedStringAutomaton.cpp
-UndefinedStringAutomaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/UndefinedStringAutomaton.h
-
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/UndefinedStringAutomaton.h
-Automaton.h
-C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Automaton.h
 
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/main.cpp
 Lexer.h
@@ -341,4 +127,6 @@ Relation.h
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Relation.h
 Database.h
 C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Database.h
+Graph.h
+C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Graph.h
 

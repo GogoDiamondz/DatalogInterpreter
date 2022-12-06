@@ -133,6 +133,12 @@
 		<Unit filename="C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/FactsAutomaton.h">
 			<Option target="project_5"/>
 		</Unit>
+		<Unit filename="C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Graph.cpp">
+			<Option target="project_5"/>
+		</Unit>
+		<Unit filename="C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Graph.h">
+			<Option target="project_5"/>
+		</Unit>
 		<Unit filename="C:/Users/hanna/OneDrive - BYU/2022 Fall Semester/CS 236/project-5/Header.cpp">
 			<Option target="project_5"/>
 		</Unit>
