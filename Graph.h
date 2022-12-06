@@ -25,46 +25,13 @@ public:
         visited[node] = false;
     }
 
-    Graph* Reverse() {
-        Graph* reverseGraph = new Graph();
-        for (auto pair1 : adjacencyList) {
-            std::set<int> adjacentNodes;
-            int targetNode = pair1.first;
-            for (auto pair2 : adjacencyList) {
-                for (auto node : pair2.second) {
-                    if (node == targetNode) adjacentNodes.insert(pair2.first);
-                }
-            }
-            reverseGraph->AddPair(targetNode, adjacentNodes);
-        }
-        return reverseGraph;
-    }
+    Graph* Reverse();
 
     // takes in a vector of ints as an order
-    // populates postorder and returns the search trees (as a vector of sets)
-    void DFS_Forest(std::vector<int> order) {
-        int SCCs_index = -1;
-        // mark all as not visited
-        for (auto pair : visited) visited[pair.first] = false;
-        for (int i = 0; i < int(order.size()); ++i) {
-            if (!visited[order.at(i)]) {
-                DFS(order.at(i), ++SCCs_index);
-            }
-        }
-    }
+    // populates postorder and search trees (in SCCs)
+    void DFS_Forest(std::vector<int> order);
 
-    void DFS(int node, int SCC_index) {
-        visited[node] = true;
-        SCCs[SCC_index].insert(node);
-        // for each neighbor of node
-        for (int neighbor : adjacencyList[node]) {
-            // if neighbor is not visited
-            if (!visited[neighbor]) {
-                DFS(neighbor, SCC_index);
-            }
-        }
-        postOrder.push_back(node);
-    }
+    void DFS(int node, int SCC_index);
 
     std::vector<int> GetPostOrder() const { return postOrder; }
 

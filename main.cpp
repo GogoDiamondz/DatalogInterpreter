@@ -85,34 +85,6 @@ int main(int argc, char* argv[]) {
         relation->AddTuple(t);
     }
 
-    //TODO Project 5
-
-    //FIXME delete: graph testing
-#if 0
-    std::cout << "GRAPH TEST" << std::endl;
-    Graph* testGraph = new Graph();
-    std::set<int> adjacentNodes1;
-    int node1 = 0;
-    adjacentNodes1.insert(2);
-    adjacentNodes1.insert(3);
-    testGraph->AddNode(node1, adjacentNodes1);
-    std::set<int> adjacentNodes2;
-    int node2 = 1;
-    adjacentNodes2.insert(0);
-    adjacentNodes2.insert(3);
-    testGraph->AddNode(node2, adjacentNodes2);
-    std::set<int> adjacentNodes3;
-    int node3 = 4;
-    adjacentNodes3.insert(0);
-    testGraph->AddNode(node3, adjacentNodes3);
-    std::set<int> adjacentNodes4;
-    int node4 = 5;
-    testGraph->AddNode(node4, adjacentNodes4);
-    std::cout << testGraph->ToString() << std::endl;
-
-    delete testGraph;
-#endif
-
     std::vector<Rule> rules = program.getRules();
     // build dependency graph
     Graph* dependencyGraph = new Graph();
@@ -131,41 +103,19 @@ int main(int argc, char* argv[]) {
 
     // reverse dependency graph
     Graph* reverseGraph = dependencyGraph->Reverse();
-    //std::cout << "Reverse Graph" << std::endl; //FIXME delete
-    //std::cout << reverseGraph << std::endl; //FIXME delete
 
     // DFS Forest on reverse graph
     std::vector<int> inOrder;
     for (auto pair : reverseGraph->GetAdjacencyList()) inOrder.push_back(pair.first);
     reverseGraph->DFS_Forest(inOrder);
 
-    //std::cout << "Post Order" << std::endl; //FIXME delete
     std::vector<int> postOrder = reverseGraph->GetPostOrder();
-#if 0 //FIXME delete
-    for (int i : postOrder) std::cout << i << " ";
-    std::cout << std::endl;
-#endif
 
-    //std::cout << "Reverse Post Order" << std::endl; //FIXME delete
     std::vector<int> reversePostOrder = postOrder;
     std::reverse(reversePostOrder.begin(), reversePostOrder.end());
-#if 0 //FIXME delete
-    for (int i : reversePostOrder) std::cout << i << " ";
-    std::cout << std::endl;
-#endif
 
-    //std::cout << "Strongly Connected Components" << std::endl; //FIXME delete
     dependencyGraph->DFS_Forest(reversePostOrder);
     std::map<int, std::set<int>> SCCs = dependencyGraph->GetSCCs();
-#if 0 //FIXME delete
-    for (auto SCC : SCCs) {
-        std::cout << SCC.first << ": ";
-        for (int i : SCC.second) {
-            std::cout << i << " ";
-        }
-        std::cout << std::endl;
-    }
-#endif
 
     // evaluate the rules in each component
     std::cout << "Rule Evaluation" << std::endl;
@@ -288,99 +238,6 @@ int main(int argc, char* argv[]) {
         std::cout << std::endl;
     }
     std::cout << std::endl;
-
-    //FIXME Project 4 code
-#if 0
-    // Iterate through rules and evaluate each rule
-    std::cout << "Rule Evaluation" << std::endl;
-    std::vector<Rule> rules = program.getRules();
-    bool databaseChanges = true;
-    int numIterations = 0;
-    while (databaseChanges) {
-        databaseChanges = false;
-        ++numIterations;
-        for (Rule rule: rules) {
-            std::cout << rule << "." << std::endl;
-            std::vector<Predicate> predicates = rule.getBody();
-            Relation *joinedRelations = new Relation;
-            // if there are any predicates, evaluate the first predicate
-            if (predicates.size() > 0) {
-                Predicate predicate = predicates.at(0);
-                // evaluate first predicate
-                Relation *relation = EvaluatePredicate(database, predicate);
-                // set joinedRelations to the first relation
-                joinedRelations = relation;
-            }
-            // iterate through the rest of the predicates, evaluate them, and join them
-            for (int i = 1; i < int(predicates.size()); ++i) {
-                Predicate predicate = predicates.at(i);
-                // evaluate predicate
-                Relation *relation = EvaluatePredicate(database, predicate);
-                joinedRelations = joinedRelations->Join(relation);
-            }
-            // get the attributes in the head predicate
-            std::vector<std::string> headAttributes;
-            for (Parameter parameter: rule.getHead().getParameters()) {
-                headAttributes.push_back(parameter.getID());
-            }
-            // get the indices of the head attributes from the joinedRelations attributes
-            std::vector<int> indices;
-            // iterate through head attributes
-            for (std::string headAttribute: headAttributes) {
-                // iterate through joinedRelations attributes (with index)
-                for (int i = 0; i < int(joinedRelations->getHeader().getAttributes().size()); ++i) {
-                    // if the current attribute in joinedRelations attributes is a headAttribute
-                    if (joinedRelations->getHeader().getAttributes().at(i) == headAttribute) {
-                        // save the index for projecting
-                        indices.push_back(i);
-                    }
-                }
-            }
-            // project the columns that appear in the head predicate
-            joinedRelations = joinedRelations->Project(indices);
-            // rename to match the relation in database that matches the head
-            std::vector<std::string> newAttributes = database->GetTable(
-                    rule.getHead().getID())->getHeader().getAttributes();
-            joinedRelations = joinedRelations->Rename(newAttributes);
-            // union with the relation in the database
-            Relation *relationInDatabase = database->GetTable(rule.getHead().getID());
-            // keep track of current tuples (before union)
-            std::set<Tuple> oldTuples = relationInDatabase->getTuples();
-            if(relationInDatabase->Union(joinedRelations)) {
-                databaseChanges = true;
-                // output new tuples
-                std::set<Tuple> newTuples;
-                for (Tuple t : relationInDatabase->getTuples()) {
-                    if (oldTuples.count(t) == 0) {
-                        newTuples.insert(t);
-                    }
-                }
-                std::vector<std::string> originalAttributes = relationInDatabase->getHeader().getAttributes();
-                std::vector<int> uniqueAttributesIndices;
-                // populate uniqueAttributesIndices
-                for (int i = 0; i < int(originalAttributes.size()); ++i) {
-                    // if there are no duplicates of the current attribute before the current attribute
-                    if (std::count(originalAttributes.begin(), originalAttributes.begin() + i, originalAttributes.at(i)) == 0) {
-                        uniqueAttributesIndices.push_back(i);
-                    }
-                }
-                // project unique attributes
-                relationInDatabase = relationInDatabase->Project(uniqueAttributesIndices);
-                for (Tuple t : newTuples) {
-                    std::vector<std::string> attributes = relationInDatabase->getHeader().getAttributes();
-                    if (attributes.size() > 0) {
-                        std::cout << "  " << attributes.at(0) << "=" << t.getValues().at(0);
-                        for (int i = 1; i < int(attributes.size()); ++i) {
-                            std::cout << ", " << attributes.at(i) << "=" << t.getValues().at(i);
-                        }
-                        std::cout << std::endl;
-                    }
-                }
-            }
-        }
-    }
-    std::cout << "\nSchemes populated after " << numIterations << " passes through the Rules.\n\n";
-#endif
 
     // Iterate through queries and evaluate each query
     std::cout << "Query Evaluation" << std::endl;
