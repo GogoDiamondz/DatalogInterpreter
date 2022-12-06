@@ -193,8 +193,8 @@ int main(int argc, char* argv[]) {
         else independent = false;
         while (repeat) {
             ++numPasses;
+            repeat = false;
             for (auto ruleNumber: SCC.second) {
-                repeat = false;
                 Rule rule = rules.at(ruleNumber);
                 std::cout << rule << "." << std::endl;
                 std::vector<Predicate> predicates = rule.getBody();
